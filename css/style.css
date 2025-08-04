@@ -1,0 +1,102 @@
+/* Reset */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* Imagem de fundo principal */
+body {
+  background-image: url("/assets/main/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+/* Hero (título e subtítulo) */
+.hero {
+  text-align: center;
+  margin-top: 24rem;
+  color: #001243;
+}
+
+.hero h1 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  font-family: "Quicksand";
+  font-weight: lighter;
+  margin-top: 0.5rem;
+}
+
+/* Container de cards */
+.cards {
+  display: grid;
+  grid-template-columns: 530px 530px;
+  gap: 40px 90px;
+  padding: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Cada card */
+.card {
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  border-radius: 32px;
+  text-decoration: none;
+  color: #001243;
+  height: 100px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-content {
+  border-radius: 12px;
+  padding: 10px 15px;
+}
+
+.card h2 {
+  margin: 0 0 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.9rem;
+  max-width: 20rem;
+  word-wrap: break-word;
+}
+
+/* Imagens dos cards — troque apenas essas URLs */
+.card.ebook {
+  background-image: url("/assets/main/card-ebook.png");
+}
+
+.card.cursos {
+  background-image: url("/assets/main/card-cursos.png");
+}
+
+.card.palestras {
+  background-image: url("/assets/main/card-palestras.png");
+}
+
+.card.grupo-vip {
+  background-image: url("/assets/main/card-grupo-vip.png");
+}
