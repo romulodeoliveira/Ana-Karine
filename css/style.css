@@ -9,7 +9,7 @@ body {
 
 /* Imagem de fundo principal */
 body {
-  background-image: url("/assets/main/Background.jpg");
+  background-image: url("../assets/main/Background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -86,17 +86,17 @@ body {
 
 /* Imagens dos cards — troque apenas essas URLs */
 .card.ebook {
-  background-image: url("/assets/main/card-ebook.png");
+  background-image: url("../assets/main/card-ebook.png");
 }
 
 .card.cursos {
-  background-image: url("/assets/main/card-cursos.png");
+  background-image: url("../assets/main/card-cursos.png");
 }
 
 .card.palestras {
-  background-image: url("/assets/main/card-palestras.png");
+  background-image: url("../assets/main/card-palestras.png");
 }
 
 .card.grupo-vip {
-  background-image: url("/assets/main/card-grupo-vip.png");
+  background-image: url("../assets/main/card-grupo-vip.png");
 }
